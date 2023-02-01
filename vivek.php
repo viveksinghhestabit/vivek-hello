@@ -1,6 +1,6 @@
 <?php 
 
-namespace Vivek\Hello;
+namespace vivek\Hello;
 
 class Vivek
 {
