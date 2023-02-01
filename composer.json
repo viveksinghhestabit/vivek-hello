@@ -1,11 +1,11 @@
 {
-    "name": "vivek/hello",
+    "name": "viveksinghdeveloper/hello",
     "description": "testing hello",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vivek\\Hello\\": "src/"
+            "Viveksinghdeveloper\\Hello\\": "src/"
         }
     },
     "minimum-stability": "stable",
