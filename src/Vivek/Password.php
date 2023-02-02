@@ -11,7 +11,7 @@ class Password
         $this->length = $length;
     }
 
-    public function generate()
+    public static function generate()
     {
         $alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789[{(*%+-$#@!)}]";
         $pass = [];
