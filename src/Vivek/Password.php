@@ -5,7 +5,7 @@ namespace VivekPassword;
 class Password
 {
 
-    public static function generate($length)
+    public static function generate($length=8)
     {
         $alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789[{(*%+-$#@!)}]";
         $pass = [];
