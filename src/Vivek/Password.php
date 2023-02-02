@@ -4,20 +4,14 @@ namespace VivekPassword;
 
 class Password
 {
-    private $length = 8;
 
-    public function __construct($length)
-    {
-        $this->length = $length;
-    }
-
-    public static function generate()
+    public static function generate($length)
     {
         $alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789[{(*%+-$#@!)}]";
         $pass = [];
         $alphaLength = strlen($alphabet) - 1;
 
-        for ($i = 0; $i < $this->length; $i++)
+        for ($i = 0; $i < $length; $i++)
         {
             $n = rand(0, $alphaLength);
             $pass[] = $alphabet[$n];
