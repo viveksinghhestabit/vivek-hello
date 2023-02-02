@@ -6,10 +6,19 @@
         "php": ">=5.3.0"
     },
     "license": "MIT",
+    "authors": [
+     {
+      "name": "Vivek Singh",
+      "email": "viveksinghcse7625@gmail.com"
+     }
+    ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Viveksinghdeveloper\\Password\\": "src/"
-        }
-    },
-    "minimum-stability": "dev"
+          "RandomPassword\\": "src/Vivek/"
+        },
+        "files": [
+          "src/Vivek/Password.php"
+        ]
+    }
 }
