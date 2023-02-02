@@ -6,17 +6,21 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit8413543a7213890264bb99674f4bfb4e
 {
+    public static $files = array (
+        '06e7ef9c41b768c354ef5ee60c7968c2' => __DIR__ . '/../..' . '/src/Vivek/Password.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
-        'V' => 
+        'R' => 
         array (
-            'Viveksinghdeveloper\\Password\\' => 29,
+            'RandomPassword\\' => 15,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Viveksinghdeveloper\\Password\\' => 
+        'RandomPassword\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/src/Vivek',
         ),
     );
 

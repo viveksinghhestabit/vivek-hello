@@ -1,23 +1,24 @@
-<?php return array(
-    'root' => array(
-        'name' => 'viveksinghdeveloper/password',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => 'be991f5b9f9b6680a167e9e0d665621749dd8668',
-        'type' => 'library',
-        'install_path' => __DIR__ . '/../../',
-        'aliases' => array(),
-        'dev' => true,
+<?php return array (
+  'root' => 
+  array (
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
+    'aliases' => 
+    array (
     ),
-    'versions' => array(
-        'viveksinghdeveloper/password' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'be991f5b9f9b6680a167e9e0d665621749dd8668',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
+    'reference' => '91f5024f3d8d09b3756add8b1bb32e634a4be290',
+    'name' => 'viveksingh/password',
+  ),
+  'versions' => 
+  array (
+    'viveksingh/password' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '91f5024f3d8d09b3756add8b1bb32e634a4be290',
     ),
+  ),
 );
